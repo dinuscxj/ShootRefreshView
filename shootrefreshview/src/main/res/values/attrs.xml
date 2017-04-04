@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShootRefreshView">
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="strokeWidth" format="dimension|reference" />
+        <attr name="gradientStartColor" format="color|reference" />
+        <attr name="gradientEndColor" format="color|reference" />
+    </declare-styleable>
+</resources>
