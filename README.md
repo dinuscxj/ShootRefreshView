@@ -2,7 +2,7 @@
 
 English | [中文版](https://github.com/dinuscxj/ShootRefreshView/blob/master/README-ZH.md)<br/>
 
-[ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView) is the refresh animation of [Kwai App](https://www.kuaishou.com).
+[ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView) is a refresh animation.
 In fact, It's an animation that opens the shutter. the main point of this 
 animation is how to draw the five line of the shutter. Mainly related 
 to the formula of the circle and line. <br/>
@@ -11,18 +11,18 @@ to the formula of the circle and line. <br/>
 
 
 ## Analysis
-**Note:** the following uses the 'Kwai line' represent the six lines of the shutter.<br/><br/>
-**Step 1:** Rotate the 'Kwai line', but the shutter does not open.<br/>
-The red arc indicates the rotation of the 'Kwai line'<br/>
+**Note:** the following uses the 'Shutter line' represent the six lines of the shutter.<br/><br/>
+**Step 1:** Rotate the 'Shutter line', but the shutter does not open.<br/>
+The red arc indicates the rotation of the 'Shutter line'<br/>
 ![](https://raw.githubusercontent.com/dinuscxj/ShootRefreshView/master/Preview/Step1.png)<br/>
 
-**Step 2:** Rotate the 'Kwai Line' and open the shutter. <br/>
+**Step 2:** Rotate the 'Shutter Line' and open the shutter. <br/>
 The core idea is how to calculate the intersection of two lines on the following picture.<br/>
 ![](https://raw.githubusercontent.com/dinuscxj/ShootRefreshView/master/Preview/Step2.png)<br/>
 The following is the formula<br/>
 ![](https://raw.githubusercontent.com/dinuscxj/ShootRefreshView/master/Preview/Step2_formula.png)<br/>
 
-**Step3:** Take the center of the 'Kwai Line' as the base point, and zoom 'Kwai Line'<br/>
+**Step3:** Take the center of the 'Shutter Line' as the base point, and zoom 'Shutter Line'<br/>
 The core idea is how to calculate the intersection of a lines and a circle on the following picture.<br/>
 ![](https://raw.githubusercontent.com/dinuscxj/ShootRefreshView/master/Preview/Step3.png)<br/>
 The following is the formula<br/>

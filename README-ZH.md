@@ -2,7 +2,7 @@
 
 [English](https://github.com/dinuscxj/ShootRefreshView) | 中文版<br/>
 
-[ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView) 是 [快手](https://www.kuaishou.com)Android客户端的一个刷新动画。
+[ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView) 是Android的一个刷新动画。
 事实上，就是一个打开快门的动画. 主要就是旋转和缩放快门的6跳线. 涉及的数学知识主要就是
 直线和圆之间的公式。<br/>
 ![](https://raw.githubusercontent.com/dinuscxj/ShootRefreshView/master/Preview/ShootRefreshView.gif?width=300)
